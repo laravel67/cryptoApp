@@ -1,3 +1,4 @@
+
 <style>
 table {
   border-collapse: collapse;
@@ -51,11 +52,14 @@ template {
   </ion-page>
 </template>
 
+<!-- Script Untuk Menampilkan/ Mengambil data Cripto Cureency dari 
+  alamat berikut ini:
+  https://api.coinlore.net/api/tickers/
+-->
 <script lang="ts">
 import { IonButton, IonHeader, IonContent, IonToolbar, IonTitle, IonToast } from '@ionic/vue';
 import { defineComponent } from 'vue';
 import Axios from 'axios'; // Tambahkan ini
-
 export default defineComponent({
   components: {
     IonButton,
@@ -84,3 +88,4 @@ export default defineComponent({
   }
 });
 </script>
+<!-- Ahir Script -->
